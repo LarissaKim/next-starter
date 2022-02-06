@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sky-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-50;
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply text-neutral-50 bg-sky-500;
+  }
+}
